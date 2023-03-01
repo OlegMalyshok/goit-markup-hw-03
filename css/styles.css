@@ -177,8 +177,10 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: #ffffff;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Hero section */
 
@@ -277,8 +279,10 @@ body {
 .section-third-item-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--main-title-color);
-  padding: 32px 65px;
+  padding: 32px 15px;
 }
 
 /* Section third */
@@ -286,6 +290,7 @@ body {
 /* footer */
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -314,7 +319,6 @@ body {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 0px;
 }
 
 /* footer */
@@ -322,13 +326,18 @@ body {
 /* Portfolio */
 
 /*  Prt Section 1 */
+
+.portfolio-section-first {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .portfolio-section-first-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-btn {
@@ -376,7 +385,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .portfolio-section-second-content {
   display: flex;
@@ -385,6 +393,7 @@ body {
   background-color: #fff;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: 0;
 }
 
 .prtss-container {
